@@ -1,25 +1,25 @@
 .angry-grid {
   display: grid;
-  border: 0.5px solid #000;
-  grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px;
-  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .angry-grid div {
   border: 0.5px solid #000;
 }
 
-.middle {
-  display: flex;
-  align-items: center;
+.angry-grid p,
+.angry-grid h4,
+.angry-grid h5 {
+  margin: 0;
 }
 
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 9px;
 }
 
 #item-0 {
@@ -122,56 +122,56 @@
   grid-column-end: 15;
 }
 #item-16 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 5;
   grid-row-end: 15;
   grid-column-end: 6;
 }
 #item-17 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 6;
   grid-row-end: 15;
   grid-column-end: 7;
 }
 #item-18 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 7;
   grid-row-end: 15;
   grid-column-end: 8;
 }
 #item-19 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 8;
   grid-row-end: 15;
   grid-column-end: 9;
 }
 #item-20 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 9;
   grid-row-end: 15;
   grid-column-end: 10;
 }
 #item-21 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 10;
   grid-row-end: 15;
   grid-column-end: 11;
 }
 #item-22 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 11;
   grid-row-end: 15;
   grid-column-end: 12;
 }
 #item-23 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 12;
   grid-row-end: 15;
@@ -208,70 +208,70 @@
   grid-column-end: 5;
 }
 #item-29 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 5;
   grid-row-end: 19;
   grid-column-end: 6;
 }
 #item-30 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 6;
   grid-row-end: 19;
   grid-column-end: 7;
 }
 #item-31 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 7;
   grid-row-end: 19;
   grid-column-end: 8;
 }
 #item-32 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 8;
   grid-row-end: 19;
   grid-column-end: 9;
 }
 #item-33 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 9;
   grid-row-end: 19;
   grid-column-end: 10;
 }
 #item-34 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 10;
   grid-row-end: 19;
   grid-column-end: 11;
 }
 #item-35 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 11;
   grid-row-end: 19;
   grid-column-end: 12;
 }
 #item-36 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 12;
   grid-row-end: 19;
   grid-column-end: 13;
 }
 #item-37 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 13;
   grid-row-end: 19;
   grid-column-end: 14;
 }
 #item-38 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 18;
   grid-column-start: 14;
   grid-row-end: 19;
@@ -362,56 +362,56 @@
   grid-column-end: 15;
 }
 #item-53 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 5;
   grid-row-end: 31;
   grid-column-end: 6;
 }
 #item-54 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 6;
   grid-row-end: 31;
   grid-column-end: 7;
 }
 #item-55 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 7;
   grid-row-end: 31;
   grid-column-end: 8;
 }
 #item-56 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 8;
   grid-row-end: 31;
   grid-column-end: 9;
 }
 #item-57 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 9;
   grid-row-end: 31;
   grid-column-end: 10;
 }
 #item-58 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 10;
   grid-row-end: 31;
   grid-column-end: 11;
 }
 #item-59 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 11;
   grid-row-end: 31;
   grid-column-end: 12;
 }
 #item-60 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 12;
   grid-row-end: 31;
@@ -454,70 +454,70 @@
   grid-column-end: 5;
 }
 #item-67 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 5;
   grid-row-end: 35;
   grid-column-end: 6;
 }
 #item-68 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 6;
   grid-row-end: 35;
   grid-column-end: 7;
 }
 #item-69 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 7;
   grid-row-end: 35;
   grid-column-end: 8;
 }
 #item-70 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 8;
   grid-row-end: 35;
   grid-column-end: 9;
 }
 #item-71 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 9;
   grid-row-end: 35;
   grid-column-end: 10;
 }
 #item-72 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 10;
   grid-row-end: 35;
   grid-column-end: 11;
 }
 #item-73 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 11;
   grid-row-end: 35;
   grid-column-end: 12;
 }
 #item-74 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 12;
   grid-row-end: 35;
   grid-column-end: 13;
 }
 #item-75 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 13;
   grid-row-end: 35;
   grid-column-end: 14;
 }
 #item-76 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 14;
   grid-row-end: 35;
